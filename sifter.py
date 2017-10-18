@@ -47,5 +47,5 @@ if __name__ == '__main__':
         newAudio = newAudio[t1:t2]
 
 
-        newAudio.export('SoundFiles/newerSong%(number)03d.wav' % {"number": x}, format="wav")
+        newAudio.export('CutUpSoundFiles/newerSong%(number)03d.wav' % {"number": x}, format="wav")
     #proc(file_name) returns probability of beat at freqeuncy of 100 samples per second
